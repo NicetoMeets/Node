@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next -p 3060"
+    "dev": "next"
   },
   "author": "Twosome",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@babel/helper-member-expression-to-functions": "^7.18.9",
+    "antd": "^4.23.3",
     "cross-env": "^7.0.3",
     "next": "^9.5.5",
     "prop-types": "^15.8.1",
-    "react": "^16.14.0"
+    "react": "^16.14.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "eslint": "^8.24.0",

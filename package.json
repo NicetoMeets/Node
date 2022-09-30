@@ -1,0 +1,24 @@
+{
+  "name": "react-nodebird-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next -p 3060"
+  },
+  "author": "Twosome",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/helper-member-expression-to-functions": "^7.18.9",
+    "cross-env": "^7.0.3",
+    "next": "^9.5.5",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

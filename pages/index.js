@@ -1,5 +1,6 @@
 import React from 'react';
 import AppLayout from '../components/AppLayout';
+import FollowList from '../components/FollowList';
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <AppLayout>
         <div>Hello, Next!</div>
         </AppLayout>
+        
     )
 }
 

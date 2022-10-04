@@ -1,7 +1,9 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback } from 'react';
 import { Form, Input, Button} from 'antd';
-import Link from 'next/Link';
-import styled from "styled-components";
+import Link from 'next/link';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import useinput from '../hooks/useinput';
 
 const ButtonWrapper = styled(Button)`
 margin-top: 15px;`;
@@ -10,6 +12,7 @@ const FormWrapper = styled(Form)`
 padding: 15px;`;
 
 const LoginForm = ({ setIsLoggedIn }) =>{
+
     const [id, setId] = useState('');
     const [password, setPassword] = useState('');
 
@@ -48,5 +51,9 @@ const LoginForm = ({ setIsLoggedIn }) =>{
         </FormWrapper>
     )
 }
+
+LoginForm.propTypes= {
+    setIsLoggedIn: PropTypes.func.isRequired,
+};
 
 export default LoginForm;
